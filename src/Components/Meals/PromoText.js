@@ -1,6 +1,6 @@
 import styles from './PromoText.module.css';
 
-function PromoText(){
+export function PromoText(){
   return(
     <section className={styles['promo-text']}>
       <h2>Онлайн Суши Ресторан Япона Кухня</h2>
@@ -16,5 +16,3 @@ function PromoText(){
     </section>
   )
 }
-
-export default PromoText;

@@ -1,5 +1,5 @@
 import React from 'react';
-import PromoText from './PromoText';
+import {PromoText} from './PromoText';
 import MealList from './MealList';
 
 function Meals (){
